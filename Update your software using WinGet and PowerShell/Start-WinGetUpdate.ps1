@@ -109,7 +109,7 @@ function Start-WinGetUpdate {
             Add-AppxPackage $($GitHubInfo.OutFile)
         }
         else {
-            Write-OutPut "Your already on the latest version of WinGet $($CheckWinGet), no need to update."
+            Write-OutPut "You are already on the latest version of WinGet $($CheckWinGet), no need to update."
         }
     }
 
